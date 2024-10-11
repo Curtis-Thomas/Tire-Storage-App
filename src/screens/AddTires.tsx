@@ -67,35 +67,41 @@ function AddTires({ appData }: AddTiresProps) {
       });
   };
 
-  const handleIdChange = (e) => {
+  const handleIdChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewId(e.target.value);
   };
 
-  const handleCarModelChange = (e) => {
+  const handleCarModelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewCarModel(e.target.value);
   };
 
-  const handleCarRegistrationChange = (e) => {
+  const handleCarRegistrationChange = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setNewCarRegistration(e.target.value);
   };
 
-  const handleCustomerNameChange = (e) => {
+  const handleCustomerNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewCustomerName(e.target.value);
   };
 
-  const handleNumberOfTiresChange = (e) => {
+  const handleNumberOfTiresChange = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setNewNumberOfTires(e.target.value);
   };
 
-  const handleTireManufacturerChange = (e) => {
+  const handleTireManufacturerChange = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setNewTireManufacturer(e.target.value);
   };
 
-  const handleTireSizeChange = (e) => {
+  const handleTireSizeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewTireSize(e.target.value);
   };
 
-  const handleWarehouseChange = (e) => {
+  const handleWarehouseChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewWarehouse(e.target.value);
   };
 
